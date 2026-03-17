@@ -28,7 +28,9 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int number = 131;
+        int number = 123;
         System.out.println(solution.isPalindrome(number));
+
+        System.out.println(solution.reverseInt(number));
     }
 }
